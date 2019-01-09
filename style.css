@@ -1,0 +1,769 @@
+body {
+    margin: 0;
+}
+
+
+
+
+
+/********* hindbaer_screen *********/
+
+#white {
+    width: 100vw;
+    height: 56.26vw;
+    background-image: url(pics/white.svg);
+    position: relative;
+    overflow: hidden;
+    transform: translateY(-25px);
+}
+
+
+/********* hindbaer *********/
+
+#hindbaer {
+
+    width: 20vw;
+    height: 20vw;
+    background-image: url(pics/hindbaer.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15vw;
+    left: 37.7vw;
+    cursor: pointer;
+
+    overflow: hidden;
+
+}
+
+/********* effekter *********/
+
+.hide {
+    display: none;
+}
+
+.show {
+    visibility: visible;
+}
+
+.blur {
+    filter: blur(5px) brightness(80%);
+}
+
+#hindbaer {
+    animation-name: hindbaer_fade;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hindbaer_fade {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#hindbaer {
+    animation-name: pulse_hindbaer;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+
+@keyframes pulse_hindbaer {
+    0% {
+        transform: scale(0.97);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/********* brus *********/
+
+
+
+#brus1 {
+    position: absolute;
+    background-image: url(pics/brus1.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    left: 20vw;
+
+}
+
+#brus1 {
+    animation-name: falling1;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+
+#brus2 {
+    position: absolute;
+    background-image: url(pics/brus2.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    left: 30vw;
+
+}
+
+#brus2 {
+    animation-name: falling1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+#brus3 {
+    position: absolute;
+    background-image: url(pics/brus1.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    left: 10vw;
+
+}
+
+#brus3 {
+    animation-name: falling1;
+    animation-duration: 4.2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+
+#brus4 {
+    position: absolute;
+    background-image: url(pics/brus1.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    left: 50vw;
+
+}
+
+#brus4 {
+    animation-name: falling1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+
+#brus5 {
+    position: absolute;
+    background-image: url(pics/brus4.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    right: 10vw;
+
+}
+
+#brus5 {
+    animation-name: falling1;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+
+#brus6 {
+    position: absolute;
+    background-image: url(pics/brus3.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    right: 3vw;
+
+}
+
+#brus6 {
+    animation-name: falling1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+
+#brus7 {
+    position: absolute;
+    background-image: url(pics/brus1.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    left: 15vw;
+
+}
+
+#brus7 {
+    animation-name: falling1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+
+#brus8 {
+    position: absolute;
+    background-image: url(pics/brus2.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    left: 3vw;
+
+}
+
+#brus8 {
+    animation-name: falling1;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+
+#brus9 {
+    position: absolute;
+    background-image: url(pics/brus1.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    left: 20vw;
+
+}
+
+#brus9 {
+    animation-name: falling1;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+#brus10 {
+    position: absolute;
+    background-image: url(pics/brus2.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    left: 65vw;
+
+}
+
+#brus10 {
+    animation-name: falling1;
+    animation-duration: 4.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+#brus11 {
+    position: absolute;
+    background-image: url(pics/brus3.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    right: 25vw;
+
+}
+
+#brus11 {
+    animation-name: falling1;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+
+#brus12 {
+    position: absolute;
+    background-image: url(pics/brus1.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    left: 7vw;
+
+}
+
+#brus12 {
+    animation-name: falling1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+
+
+#brus13 {
+    position: absolute;
+    background-image: url(pics/brus4.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    right: 6vw;
+
+}
+
+#brus13 {
+    animation-name: falling1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+#brus14 {
+    position: absolute;
+    background-image: url(pics/brus1.svg);
+    background-repeat: no-repeat;
+    width: 1vw;
+    height: 1vw;
+    right: 9vw;
+
+}
+
+#brus14 {
+    animation-name: falling1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes falling1 {
+    from {
+        top: -0.5%;
+
+    }
+
+    to {
+
+        top: 100%;
+    }
+}
+
+
+
+
+/********* header *********/
+header {
+    background-color: linear-gradient(pink, yellow);
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background: linear-gradient(pink, yellow);
+
+}
+
+nav ul {
+    list-style: none;
+    background: linear-gradient(pink, yellow);
+    overflow: hidden;
+    color: black;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+}
+
+
+nav.white ul {
+    background: white;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+/********* pink *********/
+
+#pink {
+
+    width: 50vw;
+    height: 30vw;
+    position: absolute;
+    background-image: url(pics/pink.svg);
+    background-repeat: no-repeat;
+    top: 18vw;
+    left: 30vw;
+}
+
+#pink p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3vw;
+    margin-top: 10vw;
+    margin-left: 2vw;
+}
+
+
+/********* portfolio *********/
+
+#webdesign {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#webdesign p {
+    font-size: 1.3vw;
+}
+
+
+#webdesign a {
+    font-size: 1.3vw;
+}
+
+
+.column_web {
+    margin-top: 15vw;
+    margin-right: 1vw;
+    margin-left: 5vw;
+}
+
+.column_web a {
+    text-decoration: none;
+
+}
+
+.streetart {
+    margin-top: 16.5vw;
+    margin-right: 5vw;
+}
+
+
+#indhold {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: 'Open Sans Condensed', sans-serif;
+    align-content: space-around;
+
+}
+
+
+.column_vid {
+    margin: 2.5vw;
+    width: 40vw;
+    padding-top: 10vw;
+    padding-left: 3vw;
+}
+
+video {
+    border-radius: 10px;
+    width: 40vw;
+}
+
+.redesign {
+    margin-top: 10.5vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    font-size: 1.3vw;
+}
+
+.redesign a {
+    text-decoration: none;
+}
+
+#animation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3vw;
+}
+
+.column_right {
+    margin-top: 15vw;
+    margin-left: 5vw;
+    margin-right: 1vw;
+    padding-left: 5vw;
+}
+
+.column_right a {
+    text-decoration: none;
+}
+
+.column_left {
+    flex-grow: 200px;
+    flex-basis: 1;
+    margin-top: 15.3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 1.5vw;
+    padding-left: 2.2vw;
+}
+
+img {
+    border-radius: 10px;
+}
+
+#ux {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.column_ux {
+    margin-top: 14.7vw;
+    margin-left: 2vw;
+    padding-top: 1.1vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3vw;
+
+}
+
+.column_ux a {
+    text-decoration: none;
+}
+
+.proto {
+    flex-grow: 300px;
+    flex-basis: 1;
+    margin-top: 15vw;
+    margin-left: 5vw;
+    margin-right: 1vw;
+    padding-top: 3vw;
+    padding-right: 3vw;
+
+}
+
+
+
+/********* cv *********/
+#cv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.text {
+    font-size: 1.3vw;
+    margin-top: 15vw;
+
+}
+
+.pic {
+    margin-top: 17vw;
+}
+
+
+
+
+
+/********* footer *********/
+footer {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-top: 10vw;
+    padding: 5vw;
+    background-color: rgba(255, 192, 203, 0.4)
+}
